@@ -1,0 +1,36 @@
+/* style sheet for MOOPPS */ 
+/* for IE 4.02 and higher */ 
+/* by Martin Josef Geiger 2002 */
+
+
+/* BODY = default paragraph font */ 
+    body        {bgcolor:"#FFFFFF"; font-family:Arial, Helvetica, sans-serif; font-size:110%; }
+    
+/* HYPERLINKS --------------------------------------------------------------------------- */ 
+    a:link, a:visited   {color:"296BBD"; text-decoration:"none"; }
+    a:active, a:hover   {color:"#EEA507"; cursor:hand; text-decoration:"underline";}
+
+
+/* Headers ------------------------------------------------------------------------------ */ 
+
+    .MyH1   {font-size:125%; text-decoration:"none"; font-weight:"normal"; color:"#000000";}
+    .MyH2   {font-size:125%; text-decoration:"none"; font-weight:"normal"; color:"#FF9000"; margin-top: 2em; margin-bottom: .5em}
+    .SmallLink {font-size:75%}
+
+/* Horizontal line ---------------------------------------------------------------------- */
+    hr      {size: "1"; color: "#296BBD";}
+
+/* Absatz ------------------------------------------------------------------------------- */
+    p       {margin-top: .5em; margin-bottom: .0em;}
+
+/* Aufzaehlungslisten ------------------------------------------------------------------- */ 
+    ol      {font-size: 100%; margin-top: 0.0em; margin-bottom: 0em; margin-left: 0em;}
+    ul      {font-size: 100%; margin-top: 0.0em; margin-bottom: 0em; margin-left: 2em; list-style-image:url('bullet1.gif')}
+    ol ul       {margin-top: .0em; margin-bottom: 0em; list-style-image:url('bullet1.gif')}
+    ul ul       {margin-top: .0em; margin-bottom: 0em; list-style-image:url('bullet1.gif')}
+    ul ul ul    {margin-top: .0em; margin-bottom: 0em; list-style-image:url('bullet1.gif')}
+    li      {margin-bottom: .0em; margin-left: 0em;}
+
+/* Tabellen ------------------------------------------------------------ */
+    table   {font-size:100%}
+    th, td { padding: 15px }
