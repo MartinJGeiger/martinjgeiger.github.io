@@ -25,7 +25,7 @@
 
 /* Aufzaehlungslisten ------------------------------------------------------------------- */ 
     ol      {font-size: 100%; margin-top: 0.0em; margin-bottom: 0em; margin-left: 0em;}
-    ul      {font-size: 100%; margin-top: 0.0em; margin-bottom: 0em; margin-left: 2em; list-style-image:url('bullet1.gif')}
+    ul      {font-size: 100%; margin-top: 0.0em; margin-bottom: 0em; margin-left: 0em; list-style-image:url('bullet1.gif')}
     ol ul       {margin-top: .0em; margin-bottom: 0em; list-style-image:url('bullet1.gif')}
     ul ul       {margin-top: .0em; margin-bottom: 0em; list-style-image:url('bullet1.gif')}
     ul ul ul    {margin-top: .0em; margin-bottom: 0em; list-style-image:url('bullet1.gif')}
