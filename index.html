@@ -43,7 +43,9 @@
                   <p>
                      Here, the objective is to find (optimal) values for a vector of decision variables
                      <math>
-                        <mi>X, X</mi>
+                        <mi>X</mi>
+                        <mtext>, &nbsp;</mtext> 
+                        <mi>X</mi>
                         <mo>=</mo>
                         <mo>(</mo>
                         <msub><mi>x</mi><mn>1</mn></msub>
@@ -52,8 +54,20 @@
                         <mo>)</mo>
                      </math>
                      such that some function
-                     <math><mi>f(X)</mi></math>
-                     assumes a minimal value. In most cases, <math><mi>f(X)</mi></math> is a cost-function, e.g. measuring the costs of
+                     <math>
+                     <mi>f</mi>
+                     <mo>(</mo>
+                     <mi>X</mi>
+                     <mo>)</mo>
+                     </math>
+                     assumes a minimal value. In most cases, 
+                     <math>
+                     <mi>f</mi>
+                     <mo>(</mo>
+                     <mi>X</mi>
+                     <mo>)</mo>
+                     </math> 
+                     is a cost-function, e.g. measuring the costs of
                      trucks making deliveries, of a production schedule, or some other practice-related management objective.
                      As we typically have a good understanding of the optimality criterion, we can tell whether a solution is optimal
                      (or at least of a certain quality &ndash; by comparison with lower bounds or best-known uppper bounds).
@@ -67,17 +81,24 @@
                <li>
          <p><b>Multi-criteria decision making under uncertainty,</b> with applications in real-world dynamic capital allocation.</p>
          <p>
-            There, the objective is to find values for a vector of decision variables <math><mi> X</mi></math>, such that some future
+            There, the objective is to find values for a vector of decision variables <math><mi>X</mi></math>, such that some future
             outcome <math>
-               <mi>F(X)</mi>
+               <mi>F</mi>
+               <mo>(</mo>
+            <mi>X</mi>
+            <mo>)</mo>
                <mo>=</mo>
                <mo>(</mo>
                <msub><mi>f</mi><mn>1</mn></msub>
-            <mo>(X)</mo>
+            <mo>(</mo>
+            <mi>X</mi>
+            <mo>)</mo>
                <mtext>, ..., &nbsp;</mtext>
-               <msub><mi>f</mi><mn>k</mn></msub>
-            <mo>(X)</mo>
-               <mo>)</mo>
+               <msub><mi>f</mi><mi>k</mi></msub>
+            <mo>(</mo>
+            <mi>X</mi>
+            <mo>)</mo>
+            <mo>)</mo>
             </math> is optimized. Contrary to case (i.) above, the optimality criteria are more opaque and open for 
             discussion/ interpretation, hence the multi-objective formulation. 
             Moreover, the actual outcomes are typically revealed over time, as certain 
